@@ -38,11 +38,13 @@
  body {
    font-family: "Roboto";
    max-width: 768px;
+   height: 100%;
    margin: 0 auto;
    background:#201F2E;
  }
 
  .header{
+   position: relative;
     max-width: 687px;
     padding-top: 32px;
     padding-left: 32px;
@@ -96,6 +98,4 @@
   color: #c4c1cf;
  }
 
- .main-container{
-    height: 1000px;
- }
+ 
