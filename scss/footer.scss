@@ -1,0 +1,24 @@
+.footer {
+   background: #0e0d13;
+   width: 100%;
+   border-top-left-radius: 32px;
+   border-top-right-radius: 32px;
+   padding: 24px 32px;
+ 
+
+   &__search {
+      background-color: #44414E;
+	   padding: 14px 24px 14px 24px;
+	   border-radius: 32px; 
+	   display: inline-block; 
+ }
+
+   &__btn {
+      padding: 15px 24px 16px 24px;
+      border: none;
+      cursor: pointer;
+      background-color: #44414e;
+      outline: inherit;
+      color: #c4c1cf;
+ }
+}
