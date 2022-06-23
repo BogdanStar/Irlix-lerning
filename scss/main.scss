@@ -8,6 +8,7 @@
 
    &__products-list {
       display: flex;
+      justify-content: space-between;
       flex-wrap: wrap; 
       gap: 2rem;
     }

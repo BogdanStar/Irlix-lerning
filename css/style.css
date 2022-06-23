@@ -129,6 +129,9 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
@@ -149,7 +152,7 @@ html, body {
   height: 421px;
   border-radius: 32px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(48.96%, rgba(0, 0, 0, 0)), color-stop(89.58%, rgba(14, 13, 19, 0.9))), url("../img/card-blekbery.png");
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, rgba(14, 13, 19, 0.9) 89.58%), url('../img/card-blekbery.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, rgba(14, 13, 19, 0.9) 89.58%), url("../img/card-blekbery.png");
   background-size: cover;
 }
 .card__description {
