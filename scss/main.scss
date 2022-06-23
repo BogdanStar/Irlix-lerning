@@ -1,3 +1,68 @@
 .main {
-   flex: 1 1  auto;
+   padding: 182px 0px 98px 0px;
+   color: var(--main-text-color);
+
+   &-container {
+      padding: 0px 32px 0px 32px;
+    }
+
+   &__products-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; 
+      gap: 2rem;
+    }
 }
+
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 320px;
+   height: 421px;
+   border-radius: 32px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, rgba(14, 13, 19, 0.9) 89.58%), url('../img/card-blekbery.png');
+   background-size: cover;
+
+   &__description {
+      margin-top: 22px;
+      margin-left: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+      width: 80px;
+      background-color: var(--description-bg-color);
+      border-radius: 24px;
+    }
+  
+    &__info {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+    }
+  
+    &__type {
+      color: var(--additional-text-color);
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__name {
+      margin-left: 32px;
+      margin-bottom: 24px;
+  
+    }
+  
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0.07em;
+    }
+  
+    &__style {
+      color: var(--additional-text-color);
+    }
+}  
