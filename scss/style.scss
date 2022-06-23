@@ -1,0 +1,24 @@
+@import "color.scss";
+@import "fonts.scss";
+
+html,body {
+   width: 100%;
+   height: 100%;
+   background: var(--main-bg-color);
+}
+
+.wrapper {
+   font-family: "Roboto";
+   width: 100%;
+   height: 100%;
+   line-height: 21px;
+   font-size: 18px;
+   max-width: 1024px;
+   margin: 0 auto;
+}
+
+
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "media.scss";

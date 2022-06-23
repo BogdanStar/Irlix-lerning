@@ -1,27 +1,65 @@
 .header{
-   position: relative;
-   padding-top: 32px;
-   padding-left: 32px;
+   position: fixed;
+   top: 0;
+   max-width: inherit;
+   width: 100%;
+   z-index: 99;
+   background: var(--main-bg-color);
 
+   &__container {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__content{
+      padding-left: 32px;
+      padding-top: 32px;
+   }
 
    &__title { 
     padding-bottom: 1px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: var(--main-text-color);
    }
 
    &__subtitle{
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    color: #C4C1CF;
+    color: var(--additional-text-color);
    }
 
-   &__logo{
-    position: absolute;
-	 top: 0;
-	 right: 0;
+.navbar{
+   overflow-x: auto;
+   padding-left: 32px;
+
+   &__list{
+      display: flex;
+      justify-content: flex-start;
    }
+
+   &__item{
+      border: 1px solid transparent;
+      border-radius: 32px;
+      cursor: pointer;
+      list-style-type: none;
+   }
+
+   &__item:hover{
+      border-color: var(--additional-text-color);
+      
+   }
+
+   &__button{
+      color: var(--additional-text-color);
+      background-color: var(--main-bg-color);
+      padding: 1rem 2rem;
+   }
+
+   &__button:hover{
+      color: var(--main-text-color);
+   }
+}
 }
