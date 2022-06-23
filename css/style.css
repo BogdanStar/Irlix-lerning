@@ -148,7 +148,7 @@ html, body {
   width: 320px;
   height: 421px;
   border-radius: 32px;
-  background: url("/img/card-blekbery.png");
+  background: url("../img/card-blekbery.png");
   background-size: cover;
 }
 .card__description {
