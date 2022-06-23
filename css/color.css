@@ -1,0 +1,7 @@
+:root {
+  --main-bg-color: $violet_dark;
+  --main-text-color: $white;
+  --additional-text-color: $grey;
+  --button-bg-color: $dark_grey;
+  --footer-bg-color: $black;
+}
